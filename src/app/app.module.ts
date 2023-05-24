@@ -4,10 +4,10 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { DetailsComponent } from './details/details.component';
-import { TitleContainerComponent } from './title-container/title-container.component';
-import { MainContainerComponent } from './main-container/main-container.component';
-import { SimilarToThisComponent } from './similar-to-this/similar-to-this.component';
+import { TitleContainerComponent } from './details/title-container/title-container.component';
 import { FooterComponent } from './footer/footer.component';
+import { MainContainerComponent } from './details/main-container/main-container.component';
+import { RectangularButtonComponent } from './common/rectangular-button/rectangular-button.component';
 
 @NgModule({
   declarations: [
@@ -15,9 +15,9 @@ import { FooterComponent } from './footer/footer.component';
     HeaderComponent,
     DetailsComponent,
     TitleContainerComponent,
+    FooterComponent,
     MainContainerComponent,
-    SimilarToThisComponent,
-    FooterComponent
+    RectangularButtonComponent
   ],
   imports: [
     BrowserModule

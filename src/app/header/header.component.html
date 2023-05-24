@@ -1,1 +1,17 @@
-<p>header works!</p>
+<div class="header-container">
+    <div class="header-left-container">
+        <div class="header-logo"></div>
+        <div *ngFor="let title of titleList">
+            <h2>{{title}}</h2>
+        </div>
+    </div>
+    <div class="header-right-container">
+        <div class="search-icon"></div>
+        <div class="translate-icon"></div>
+        <app-rectangular-button [button-text]="'Subscribe now'" [width]="150" [height]="40"></app-rectangular-button>
+        <div class="sign-in-card">
+            <div class="profile-icon"></div>
+            <div>Sign In</div> 
+        </div>
+    </div>
+</div>

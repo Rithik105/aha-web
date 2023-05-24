@@ -1,0 +1,73 @@
+.header-container{
+    background-image: linear-gradient(rgb(0, 0, 0) 20%, rgba(0, 0, 0, 0));
+    width: 100%;
+    height: 52px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.header-left-container{
+
+    box-sizing: border-box;
+    margin-top: 9.75px;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+    width: 55%;
+}
+.header-logo{
+    margin-left: 2px;
+    background-image: url(https://www.aha.video/aha-logo.db810aeaa42b356a86a7.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 43px;
+    width: 62px;
+}
+.header-container h2{
+    color:  rgba(255, 255, 255, 0.698);
+    font-size: 0.9em; 
+}
+.header-right-container{
+    box-sizing: border-box;
+    margin-top: 9.75px;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+    width:35%;
+    align-items: center;
+}
+.search-icon{
+    background-image: url(https://www.aha.video/search-icon.704c679b82e10dd8379c.svg) ;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 16px;
+    width: 16px;
+}
+.translate-icon{
+    background-image: url(	https://www.aha.video/language-icon.ef88ebcc6b1bcda97fc4.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 24px;
+    width: 24px;
+}
+.sign-in-card{
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    align-items: center;
+}
+.profile-icon{
+    
+    background-image: url(	https://www.aha.video/assets/icons/svg/avatar_profile.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 24px;
+    width: 24px;
+}
+@media screen and (max-width:900px) {
+
+    .header-container{
+        display: none;
+    }
+    
+}
