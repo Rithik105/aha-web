@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, HostListener } from '@angular/core';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +7,15 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'aha-web';
-}
+  headerTransparent = true
+  @HostListener('window:scroll',[])
+  onScroll(){
+    if(window.scrollY>0){
+       this.headerTransparent = false
+    }
+    else{
+      this.headerTransparent=true
+    }
+  }
+ 
+ }

@@ -1,0 +1,84 @@
+.title-container{
+    display: flex;
+    background-image: url(https://image-resizer-cloud-api.akamaized.net/image/A98FB9D1-EE56-455D-A460-600BD454AA3E/0-3x1.jpg?width=2880);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:calc(0px + 18vw * 2 )
+
+}
+.title-gradient{
+    flex: 1;
+    background-image: linear-gradient(75deg,#000 3.89%,transparent 94.59%);
+ 
+}
+.title-container-content{
+    margin-top: 96px;
+    margin-left: 60px;
+    display: flex;
+    flex-direction: column;
+    width: calc(0px + 32vw * 2 );
+    gap: 0px;
+  
+}
+.genre-row{
+  display: flex;
+  flex-direction: row;
+}
+.genre-card{
+    margin-right: 10px;
+    box-sizing: border-box;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-size: 8px;
+    padding: 5px 8px;
+    border: 2px solid rgb(53, 57, 63);
+    background-color: rgb(26, 29, 30);
+}
+.subscription-icon{
+    margin-right: 8px;
+}
+#title-text{
+    margin:10px 0px;
+font-size: calc(3vw * 0.05 + 29px);
+color: white;
+}
+.details-container{
+    color: rgb(122, 122, 122);
+    width: 290px;
+    word-wrap: break-word;
+    height: fit-content;
+    font-size: 13px;
+
+}
+.details{
+    display: inline;
+}
+.description{
+    padding: 0px;
+    font-size: calc( calc( 1vw * 0.3 ) + 10.4px);
+    color: white;
+}
+.button-row{
+    display: flex;
+    flex-direction: row;
+}
+.button-row app-rectangular-button{
+    margin: 0px 10px;
+}
+.share-button{
+    margin-left: 10px;
+    margin-top: 15px;
+    height: 10px;
+    width: 10px;
+color: white;
+font-size: 10px;
+}
+@media screen and (max-width:900px){
+    .title-container-content{
+        margin-top: 30px;
+    }
+}

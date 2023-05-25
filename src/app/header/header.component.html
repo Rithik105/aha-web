@@ -1,4 +1,5 @@
-<div class="header-container">
+<div class="header-container" [ngClass]="{'header-scrolled':!transparent}">
+    <div class="back-arrow"></div>
     <div class="header-left-container">
         <div class="header-logo"></div>
         <div *ngFor="let title of titleList">
@@ -8,7 +9,7 @@
     <div class="header-right-container">
         <div class="search-icon"></div>
         <div class="translate-icon"></div>
-        <app-rectangular-button [button-text]="'Subscribe now'" [width]="150" [height]="40"></app-rectangular-button>
+        <app-rectangular-button [button-text]="'Subscribe now'"></app-rectangular-button>
         <div class="sign-in-card">
             <div class="profile-icon"></div>
             <div>Sign In</div> 

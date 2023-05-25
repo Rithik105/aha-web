@@ -3,21 +3,27 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
-import { DetailsComponent } from './details/details.component';
-import { TitleContainerComponent } from './details/title-container/title-container.component';
 import { FooterComponent } from './footer/footer.component';
-import { MainContainerComponent } from './details/main-container/main-container.component';
 import { RectangularButtonComponent } from './common/rectangular-button/rectangular-button.component';
+import { BodyComponent } from './body/body.component';
+import { BodyTitleComponent } from './body/body-title/body-title.component';
+import { BodyMainComponent } from './body/body-main/body-main.component';
+import { EpisodesComponent } from './body/body-main/episodes/episodes.component';
+import { CastComponent } from './body/body-main/cast/cast.component';
+import { DetailsComponent } from './body/body-main/details/details.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    DetailsComponent,
-    TitleContainerComponent,
     FooterComponent,
-    MainContainerComponent,
-    RectangularButtonComponent
+    RectangularButtonComponent,
+    BodyComponent,
+    BodyTitleComponent,
+    BodyMainComponent,
+    EpisodesComponent,
+    CastComponent,
+    DetailsComponent
   ],
   imports: [
     BrowserModule
