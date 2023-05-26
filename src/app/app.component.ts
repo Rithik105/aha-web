@@ -8,6 +8,7 @@ import { Component, HostListener } from '@angular/core';
 export class AppComponent {
   title = 'aha-web';
   headerTransparent = true
+
   @HostListener('window:scroll',[])
   onScroll(){
     if(window.scrollY>0){
@@ -17,5 +18,5 @@ export class AppComponent {
       this.headerTransparent=true
     }
   }
- 
+
  }

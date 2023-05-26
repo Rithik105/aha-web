@@ -6,5 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./body-main.component.css']
 })
 export class BodyMainComponent {
-
+selectedTab = 'episodes'
+tabPressed(tab:string){
+  this.selectedTab=tab;
+}
 }

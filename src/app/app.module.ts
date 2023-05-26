@@ -11,6 +11,10 @@ import { BodyMainComponent } from './body/body-main/body-main.component';
 import { EpisodesComponent } from './body/body-main/episodes/episodes.component';
 import { CastComponent } from './body/body-main/cast/cast.component';
 import { DetailsComponent } from './body/body-main/details/details.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import {MatSelectModule} from '@angular/material/select';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import {MatIcon, MatIconModule} from '@angular/material/icon';
 
 @NgModule({
   declarations: [
@@ -23,10 +27,15 @@ import { DetailsComponent } from './body/body-main/details/details.component';
     BodyMainComponent,
     EpisodesComponent,
     CastComponent,
-    DetailsComponent
+    DetailsComponent,
+  
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    BrowserAnimationsModule,
+    MatFormFieldModule,
+    MatSelectModule,
+    MatIconModule
   ],
   providers: [],
   bootstrap: [AppComponent]

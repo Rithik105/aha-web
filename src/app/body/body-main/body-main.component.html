@@ -1,3 +1,13 @@
 <div class="body-main">
-    
+    <div class="tab-bar">
+        <button (click)="tabPressed('episodes')" [ngClass]="{'active-tab':selectedTab=='episodes'}" class="body-tab active-tab">Episodes</button>
+        <button (click)="tabPressed('cast')" [ngClass]="{'active-tab':selectedTab=='cast'}" class="body-tab">Cast</button>
+        <button (click)="tabPressed('details')" [ngClass]="{'active-tab':selectedTab=='details'}" class="body-tab">Details</button>
+    </div>
+    <hr class="divider">
+     <div class="tab-body" [ngSwitch]="selectedTab">
+        <app-episodes *ngSwitchCase="'episodes'"></app-episodes>
+        <app-cast *ngSwitchCase="'cast'"></app-cast>
+        <app-details *ngSwitchCase="'details'"></app-details>
+    </div>
 </div>

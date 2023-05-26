@@ -1,6 +1,15 @@
-#rectangular-button{
+.rectangular-button{
+   font-size: 14px;
    padding: 15px 25px;
    border-radius: 50px;
    border: 0px;
    color: white;
+   letter-spacing: 0.1px;
+}
+@media screen and (min-width:1921px) {
+   .rectangular-button{
+      padding: 20px 55px;
+      font-size: 20px;
+   }
+   
 }

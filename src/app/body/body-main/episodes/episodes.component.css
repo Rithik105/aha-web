@@ -1,0 +1,69 @@
+.episode-container{
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+
+}
+.drop-down{
+    padding: 10px;
+    background-color: rgb(101, 101, 101);
+    margin-bottom: 20px;
+}
+.episode-image{
+    border-radius: 10px;
+    height: 124px;
+    width: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.play-icon{
+    color: white;
+    position: relative;
+    top: 60%;
+    left: 88%;
+}
+.episode-list-container{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    height: fit-content;
+    width: 100%;
+    max-width: 990px;
+}
+.episode-details-container{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    width: 100%;
+}
+.title{
+    color: white;
+    font-size: 20px;
+}
+.other{
+    margin-top: 10px;
+    flex-grow: 1;
+    color: rgb(127, 126, 134);
+    font-size: 18.88px;
+}
+.episode-description{
+  
+    font-size: 16px;
+    color: white;
+}
+.premuim-card{
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    position: relative;
+    left: 65%;
+    display: flex;
+    flex-direction: row;
+    height: 20px;
+    width: 80px;
+    background-image:linear-gradient(180deg,#ff6d2e 28.63%,#dd461d); ;
+}
+.tick-icon{
+    color: white;
+    width: 20px;
+    height: 20px;
+} 

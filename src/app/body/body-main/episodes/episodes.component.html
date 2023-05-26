@@ -1,1 +1,25 @@
-<p>episodes works!</p>
+<div class="episode-container">
+ 
+   <mat-select class="drop-down" style="border: 0px;width: 100px;border: 1px solid rgb(127, 126, 134);border-radius: 10px" [(value)] = "selectedSeason">
+    <mat-option style="background-color: rgb(12, 12, 12);color: gray;" *ngFor="let item of seasonList" [value]="item">
+         {{item}}
+    </mat-option>
+   </mat-select>
+
+   <div class="episode-list-container" *ngFor="let item of episodeList">
+        <div class="episode-image" [ngStyle]="{'background-image': 'url(' + item.image + ')'}"> 
+           <div class="premuim-card" *ngIf="item.premium">
+            <mat-icon class="tick-icon">done</mat-icon>
+            <div>premium</div>
+         </div>
+           <mat-icon class="play-icon">play_circle_outline</mat-icon>
+         </div>
+         <div class="episode-details-container">
+            <div class="title">{{item.episodeNo}}. {{item.title}}</div>
+            <div class="other">Episode {{item.episodeNo}} | {{item.duration}}min</div>
+            <div class="episode-description">{{item.description}}</div>
+         </div>
+
+   </div>
+   
+</div>
