@@ -10,6 +10,7 @@
     margin-bottom: 20px;
 }
 .episode-image{
+    overflow-x: hidden;
     border-radius: 10px;
     height: 124px;
     width: 300px;
@@ -22,6 +23,22 @@
     top: 60%;
     left: 88%;
 }
+.premuim-card{
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    position: relative;
+    left: 65%;
+    display: flex;
+    flex-direction: row;
+    height: 20px;
+    width: 80px;
+    background-image:linear-gradient(180deg,#ff6d2e 28.63%,#dd461d); ;
+}
+.tick-icon{
+    color: white;
+    width: 20px;
+    height: 20px;
+} 
 .episode-list-container{
     margin-top: 50px;
     display: flex;
@@ -51,19 +68,3 @@
     font-size: 16px;
     color: white;
 }
-.premuim-card{
-    border-top-right-radius: 10px;
-    border-bottom-left-radius: 10px;
-    position: relative;
-    left: 65%;
-    display: flex;
-    flex-direction: row;
-    height: 20px;
-    width: 80px;
-    background-image:linear-gradient(180deg,#ff6d2e 28.63%,#dd461d); ;
-}
-.tick-icon{
-    color: white;
-    width: 20px;
-    height: 20px;
-} 
