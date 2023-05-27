@@ -1,5 +1,5 @@
 .body-main{
-    height: fit-content;
+    height: 2000px;
     padding-top: 10px;
 }
 .body-tab{padding: 0px 20px;
@@ -30,4 +30,7 @@
 }
 .tab-body{
      margin-top: 70px;
+}
+.scrollable-list{
+    margin-left: 100px;
 }

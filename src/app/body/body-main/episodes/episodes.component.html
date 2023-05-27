@@ -10,9 +10,9 @@
         <div class="episode-image" [ngStyle]="{'background-image': 'url(' + item.image + ')'}"> 
            <div class="premuim-card" *ngIf="item.premium">
             <mat-icon class="tick-icon">done</mat-icon>
-            <div>premium</div>
+            <div>Premium</div>
          </div>
-           <mat-icon class="play-icon">play_circle_outline</mat-icon>
+           <mat-icon class="play-icon" [ngClass]="{'offset':!item.premium}">play_circle_outline</mat-icon>
          </div>
          <div class="episode-details-container">
             <div class="title">{{item.episodeNo}}. {{item.title}}</div>

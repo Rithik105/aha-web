@@ -1,0 +1,77 @@
+.scrollable-title{
+  margin-left: 20px;
+  color: white;
+  font-size: 24px;
+  }
+.scrollable-container{
+    margin-left: 20px;
+    position: relative;
+    transition: linear 0.3s;
+}
+.scrolled-container{
+  margin-left: 0px;
+  transition: linear 0.3s;
+}
+.card-image {     
+  background-color: aqua;
+    width: 212px;
+    height: 120px;
+    border-radius: 8px;
+    border: 1px solid black;
+    
+  }
+  .left-arrow-button{
+
+    background-image: linear-gradient(to right,#1b1b1ba6 5%,transparent 100%);
+    height: 121px;
+    width:40px;
+    position: absolute;
+    z-index: 9;
+    padding-top: 50px;
+    padding-left: 10px;
+  }
+  .right-arrow-button{
+    right: 0px;
+    background-image: linear-gradient(to left,#1b1b1ba6 5%,transparent 100%);
+    height: 121px;
+    width:40px;
+    background-color: transparent;
+    position: absolute;
+    padding-top: 50px;
+    z-index: 9;
+    padding-left: 10px;
+  }
+  .card-list {
+    float: left;
+    width: 100%;
+    overflow: auto;
+    white-space: nowrap;
+    
+    -ms-overflow-style: none;  
+  scrollbar-width: none;
+  }
+  .card-container{
+    position: relative;
+    margin: 0px 2px;
+    display: inline-block;
+    height: 150px;
+  }
+  .card{
+    position: relative;
+    top: 10px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 14px;
+    
+    transition: linear 0.3s;
+  }
+  .card:hover{
+    transition: linear 0.3s;
+    top: 0px;
+  }
+
+  .card-list::-webkit-scrollbar {
+        display: none;
+      }
+  

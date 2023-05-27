@@ -14,7 +14,8 @@ import { DetailsComponent } from './body/body-main/details/details.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatSelectModule} from '@angular/material/select';
 import { MatFormFieldModule } from '@angular/material/form-field';
-import {MatIcon, MatIconModule} from '@angular/material/icon';
+import { MatIconModule} from '@angular/material/icon';
+import { ScrollableListComponent } from './common/scrollable-list/scrollable-list.component';
 
 @NgModule({
   declarations: [
@@ -28,6 +29,7 @@ import {MatIcon, MatIconModule} from '@angular/material/icon';
     EpisodesComponent,
     CastComponent,
     DetailsComponent,
+    ScrollableListComponent,
   
   ],
   imports: [

@@ -4,8 +4,9 @@
     background-size: cover;
     background-repeat: no-repeat;
     height:calc(0px + 17vw * 2 )
-
 }
+
+
 
 .title-gradient{
     flex: 1;

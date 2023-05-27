@@ -13,7 +13,7 @@
     overflow-x: hidden;
     border-radius: 10px;
     height: 124px;
-    width: 300px;
+    width: 215px;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -23,31 +23,40 @@
     top: 60%;
     left: 88%;
 }
+.offset{
+    top:75%
+}
 .premuim-card{
     border-top-right-radius: 10px;
     border-bottom-left-radius: 10px;
     position: relative;
-    left: 65%;
+    left: 73%;
     display: flex;
     flex-direction: row;
-    height: 20px;
-    width: 80px;
+    align-items: center;
+    height: 15px;
+    width: 60px;
+    color: white;
+    font-size: 8px;
     background-image:linear-gradient(180deg,#ff6d2e 28.63%,#dd461d); ;
 }
 .tick-icon{
     color: white;
     width: 20px;
     height: 20px;
+    transform: scale(0.5);
 } 
 .episode-list-container{
-    margin-top: 50px;
+   
     display: flex;
     flex-direction: row;
     height: fit-content;
     width: 100%;
     max-width: 990px;
+    height: 200px;
 }
 .episode-details-container{
+    flex: 1;
     display: flex;
     flex-direction: column;
     margin-left: 10px;
@@ -59,12 +68,12 @@
 }
 .other{
     margin-top: 10px;
-    flex-grow: 1;
+    
     color: rgb(127, 126, 134);
     font-size: 18.88px;
 }
 .episode-description{
-  
+  margin-top: 30px;
     font-size: 16px;
     color: white;
 }

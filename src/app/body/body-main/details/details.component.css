@@ -1,0 +1,26 @@
+.details-container{
+    margin-left: 20px;
+    width: 22%;
+}
+.detail-card{
+    margin-top: 5px;
+    display: flex;
+    flex-direction: row;
+    font-size: 16px;
+    justify-content: space-between;
+}
+.title{
+   
+    color: rgb(127, 126, 134);
+}
+.value{
+    color: white;
+}
+
+@media screen and (max-width:1000px) {
+
+    .details-container{
+        width: 30%;
+    }
+    
+}

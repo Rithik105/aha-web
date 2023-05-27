@@ -1,1 +1,6 @@
-<p>cast works!</p>
+<div class="cast-container">
+    <div class="cast-card" *ngFor="let cast of castList">
+        <img height="96px" width="96px" src={{cast.imageUrl}} alt="">
+        <div>{{cast.title}}</div>
+    </div>
+</div>
