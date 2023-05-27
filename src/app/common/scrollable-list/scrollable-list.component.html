@@ -1,6 +1,5 @@
+<div>
 <div class="scrollable-title" >{{title}}</div>
-
-
 <div class="scrollable-container" [ngClass]="{'scrolled-container':scrolled>0}" (mouseenter)="visible=true" (mouseleave)="visible=false">
     <div class="left-arrow-button" *ngIf="visible && scrolled>0" (click)="scrollLeft()">
        <img src="https://www.aha.video/left-arrow.9dac92970c7bc4c051e3.png" alt="">
@@ -20,3 +19,4 @@
         <img src="	https://www.aha.video/aha-arrow.3ae0cd913ff5a84187b2.svg" alt="">
      </div>
     </div>
+</div>

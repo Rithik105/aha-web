@@ -5,9 +5,6 @@
     background-repeat: no-repeat;
     height:calc(0px + 17vw * 2 )
 }
-
-
-
 .title-gradient{
     flex: 1;
     background-image: linear-gradient(75deg,#000 3.89%,transparent 94.59%);

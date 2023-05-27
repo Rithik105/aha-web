@@ -1,5 +1,10 @@
 .body-main{
-    height: 2000px;
+    background-image: url(https://www.aha.video/backgroundcheck.975c41117a3dd7355f3b.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(36, 38, 41);
+    box-sizing: border-box;
+    height: fit-content;
     padding-top: 10px;
 }
 .body-tab{padding: 0px 20px;
