@@ -18,6 +18,9 @@
     flex-direction: column;
     width: calc(0px + 32vw * 2 );
 }
+.title-container-content-mobile{
+    display: none;
+}
 .genre-row{
   display: flex;
   flex-direction: row;
@@ -81,5 +84,76 @@ font-size: 12px;
 @media screen and (max-width:900px){
     .title-container-content{
         margin-top: 30px;
+    }
+}
+@media screen and (max-width:768px) {
+    .title-container{
+        min-height: 50vw;
+        height: fit-content;
+    }
+    #title-text{
+        margin:10px 0px;
+    /* font-size: calc(3vw * 0.05 + 29px); */
+    font-size: 3.5vw;
+    color: white;
+    }
+    .details-container{
+        color: rgb(122, 122, 122);
+        width: 370px;
+        word-wrap: break-word;
+        height: fit-content;
+        font-size: 2.1vw;
+        margin-bottom: 10px;
+    
+    }
+    .title-container-content-mobile{
+        background-image: url(https://www.aha.video/backgroundcheck.975c41117a3dd7355f3b.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color: rgb(36, 38, 41);
+        height:fit-content;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .title-container-content{
+        width: 90%;
+        
+    }
+    .genre-card{
+        margin-right: 10px;
+        box-sizing: border-box;
+        border-radius: 6px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        color: white;
+        font-size: 1vw;
+        padding: 0px 0.3vw;
+        border: 2px solid rgb(53, 57, 63);
+        background-color: rgb(26, 29, 30);
+    }
+    .title-gradient{
+        display: none;
+    }
+    .description{
+        padding: 0px;
+        /* font-size:calc( calc( 1vw * 0.3 ) + 10.4px); */
+        font-size: 2.1vw ;
+        line-height: 2.5vw;
+        color: white;
+    }
+    .share-button{
+        margin-left: 20px;
+        margin-top: 2vw;
+        margin-bottom: 80px;
+        height: 10px;
+        width: 10px;
+    color: white;
+    font-size: 12px;
+    }
+    .button-row{
+        justify-content: space-between;
     }
 }

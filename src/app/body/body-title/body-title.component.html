@@ -29,3 +29,32 @@
 </div>
 </div>
 </div>
+<div class="title-container-content-mobile">    
+    <div class="title-container-content">    
+        <div class="genre-row" >
+            <div class="genre-card" *ngFor="let genre of genreList">
+                <img class="subscription-icon" *ngIf="genre==='Premuim'" height="10px" width="10px" src="https://www.aha.video/premium-check.bbf28824daa35fa1f174.svg" alt="tick">
+                {{genre}}
+            </div>
+        </div>
+        <div id="title-text">NewSense</div>
+        <div class="details-container">
+            <div class="details"  *ngFor="let detail of detailsList">
+               {{detail}}&nbsp;•&nbsp; 
+            </div>
+        </div>
+        <div class="description">
+            <p>
+                Shiva and his journalist friends make money unethically in Madanapally by publishing false news stories and colluding with local politicians who control the town. Will they choose to stand up for the people of Madanapally, or will their greed and corruption lead them down a dark path? Watch to find out.
+            </p>
+        </div>
+        <div class="button-row">
+        <app-rectangular-button [background]="'linear-gradient(0deg, rgb(26, 29, 30) -86.4%,rgb(26, 29, 30))'" [button-text]="'Play Trailer'"></app-rectangular-button>
+        <app-rectangular-button [button-text]="'Subscribe Now'"></app-rectangular-button>
+        </div>
+        <div class="share-button">
+            <img width="25" height="26" src="https://png.pngtree.com/png-clipart/20190705/original/pngtree-vector-share-icon-png-image_4254023.jpg" alt="">
+            Share
+        </div>
+    </div>
+</div>
