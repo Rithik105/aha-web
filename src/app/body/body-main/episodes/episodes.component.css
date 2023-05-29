@@ -5,12 +5,14 @@
 margin-right:10px ;
 }
 .drop-down{
+    cursor: pointer;
     padding: 10px;
     margin-bottom: 500px;
     background-color: rgb(101, 101, 101);
     margin-bottom: 20px;
 }
 .episode-image{
+    cursor: pointer;
     overflow-x: hidden;
     border-radius: 10px;
     height: 124px;

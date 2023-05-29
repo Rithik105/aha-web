@@ -8,7 +8,9 @@
     height: fit-content;
     padding-top: 10px;
 }
-.body-tab{padding: 0px 20px;
+.body-tab{
+    cursor: pointer;
+    padding: 0px 20px;
     font-size: 16px;
     z-index: 9;
     height: 50px;

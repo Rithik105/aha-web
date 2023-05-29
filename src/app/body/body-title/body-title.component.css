@@ -5,6 +5,8 @@
     background-repeat: no-repeat;
     height:calc(0px + 17vw * 2 );
     min-height: max-content;
+    -ms-overflow-style: none;
+     scrollbar-width: none;
 }
 .title-gradient{
     flex: 1;
@@ -77,6 +79,7 @@ color: white;
     margin: 0px 10px;
 }
 .share-button{
+    cursor: pointer;
     margin-left: 10px;
     margin-top: 1.5vw;
     height: 6px;

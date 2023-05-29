@@ -10,6 +10,7 @@
     justify-content: space-between;
 }
 .back-arrow{
+    cursor: pointer;
     display: none;
     background-image: url(https://www.aha.video/arrow_back_white.2513cfd8f083f113c0fa.svg);
     height: 25px;
@@ -24,6 +25,7 @@
     flex-direction: row;
 }
 .header-logo{
+    cursor: pointer;
     margin-left: 25px;
     margin-right: 25px;
     background-image: url(https://www.aha.video/aha-logo.db810aeaa42b356a86a7.png);
@@ -46,6 +48,7 @@
     align-items: center;
 }
 .search-icon{
+    cursor: pointer;
     margin-right: 15px;
     background-image: url(https://www.aha.video/search-icon.704c679b82e10dd8379c.svg) ;
     background-size: contain;
@@ -54,6 +57,7 @@
     width: 16px;
 }
 .translate-icon{
+    cursor: pointer;
     margin-right: 15px;
     background-image: url(	https://www.aha.video/language-icon.ef88ebcc6b1bcda97fc4.svg);
     background-size: contain;
@@ -62,6 +66,7 @@
     width: 24px;
 }
 .sign-in-card{
+    cursor: pointer;
     color:  rgba(255, 255, 255, 0.698);
     font-size: calc( calc( 1vw * 0.3 ) + 10.4px);; 
     margin: 0px 20px;

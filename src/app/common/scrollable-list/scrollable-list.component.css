@@ -50,6 +50,7 @@
     scrollbar-width: none;
   }
   .card-container{
+    cursor: pointer;
     position: relative;
     margin: 0px 2px;
     display: inline-block;
