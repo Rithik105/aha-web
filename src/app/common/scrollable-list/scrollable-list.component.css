@@ -46,9 +46,8 @@
     width: 100%;
     overflow: auto;
     white-space: nowrap;
-    
     -ms-overflow-style: none;  
-  scrollbar-width: none;
+    scrollbar-width: none;
   }
   .card-container{
     position: relative;

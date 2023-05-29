@@ -1,0 +1,202 @@
+{"numberOfSeasons":2,
+  "castList": [
+    {
+      "title": "Vishwak Sen",
+      "imageUrl": "https://image-resizer-cloud-api.akamaized.net/image/vishwak-sen/0-1x1.jpg?width=146"
+    },
+    {
+      "title": "Nivetha Pethuraj",
+      "imageUrl": "https://image-resizer-cloud-api.akamaized.net/image/nivetha-pethuraj/0-1x1.jpg?width=146"
+    },
+    {
+      "title": "Rao Ramesh",
+      "imageUrl": "https://image-resizer-cloud-api.akamaized.net/image/rao-ramesh/0-1x1.jpg?width=146"
+    },
+    {
+      "title": "Prudhvi Raj",
+      "imageUrl": "https://image-resizer-cloud-api.akamaized.net/image/prudhvi-raj/0-1x1.jpg?width=146"
+    },
+    {
+      "title": "Rohini",
+      "imageUrl": "https://image-resizer-cloud-api.akamaized.net/image/rohini/0-1x1.jpg?width=146"
+    },
+    {
+      "title": "Hyper Adhi",
+      "imageUrl": "https://image-resizer-cloud-api.akamaized.net/image/hyper-adhi/0-1x1.jpg?width=146"
+    }
+  ],
+  "detailsList": [
+    {
+      "title": "Director",
+      "value": "Sri Prawin Kumar"
+    },
+    {
+      "title": "Studio",
+      "value": "Mirage Media"
+    }
+  ],
+  "episodeList": [
+    {
+      "season": "1",
+      "premium": true,
+      "image": "https://image-resizer-cloud-api.akamaized.net/image/FC5A54D0-782F-48E0-8176-078020F90821/0-16x9.jpg?width=323",
+      "title": "We Are Back",
+      "episodeNo": "1",
+      "duration": "24",
+      "description": "Geetha and Subbu's roles as tester and developer in the same team cause conflict. Forced to perform in a skit, they fight, creating tension. What happens next unfolds their future."
+    },
+    {
+      "season": "1",
+      "premium": false,
+      "image": "https://image-resizer-cloud-api.akamaized.net/image/FC5A54D0-782F-48E0-8176-078020F90821/0-16x9.jpg?width=323",
+      "title": "We Are Back",
+      "episodeNo": "2",
+      "duration": "24",
+      "description": "Geetha and Subbu's roles as tester and developer in the same team cause conflict. Forced to perform in a skit, they fight, creating tension. What happens next unfolds their future."
+    },
+    {
+      "season": "1",
+      "premium": false,
+      "image": "https://image-resizer-cloud-api.akamaized.net/image/FC5A54D0-782F-48E0-8176-078020F90821/0-16x9.jpg?width=323",
+      "title": "We Are Back",
+      "episodeNo": "3",
+      "duration": "24",
+      "description": "Geetha and Subbu's roles as tester and developer in the same team cause conflict. Forced to perform in a skit, they fight, creating tension. What happens next unfolds their future."
+    },
+    {
+      "season": "1",
+      "premium": false,
+      "image": "https://image-resizer-cloud-api.akamaized.net/image/FC5A54D0-782F-48E0-8176-078020F90821/0-16x9.jpg?width=323",
+      "title": "We Are Back",
+      "episodeNo": "4",
+      "duration": "24",
+      "description": "Geetha and Subbu's roles as tester and developer in the same team cause conflict. Forced to perform in a skit, they fight, creating tension. What happens next unfolds their future."
+    },
+    {
+      "season": "1",
+      "premium": false,
+      "image": "https://image-resizer-cloud-api.akamaized.net/image/FC5A54D0-782F-48E0-8176-078020F90821/0-16x9.jpg?width=323",
+      "title": "We Are Back",
+      "episodeNo": "5",
+      "duration": "24",
+      "description": "Geetha and Subbu's roles as tester and developer in the same team cause conflict. Forced to perform in a skit, they fight, creating tension. What happens next unfolds their future."
+    },
+    {
+      "season": "1",
+      "premium": true,
+      "image": "https://image-resizer-cloud-api.akamaized.net/image/FC5A54D0-782F-48E0-8176-078020F90821/0-16x9.jpg?width=323",
+      "title": "We Are Back",
+      "episodeNo": "6",
+      "duration": "24",
+      "description": "Geetha and Subbu's roles as tester and developer in the same team cause conflict. Forced to perform in a skit, they fight, creating tension. What happens next unfolds their future."
+    },
+    {
+      "season": "1",
+      "premium": true,
+      "image": "https://image-resizer-cloud-api.akamaized.net/image/FC5A54D0-782F-48E0-8176-078020F90821/0-16x9.jpg?width=323",
+      "title": "We Are Back",
+      "episodeNo": "7",
+      "duration": "24",
+      "description": "Geetha and Subbu's roles as tester and developer in the same team cause conflict. Forced to perform in a skit, they fight, creating tension. What happens next unfolds their future."
+    },
+    {
+      "season": "1",
+      "premium": true,
+      "image": "https://image-resizer-cloud-api.akamaized.net/image/FC5A54D0-782F-48E0-8176-078020F90821/0-16x9.jpg?width=323",
+      "title": "We Are Back",
+      "episodeNo": "8",
+      "duration": "24",
+      "description": "Geetha and Subbu's roles as tester and developer in the same team cause conflict. Forced to perform in a skit, they fight, creating tension. What happens next unfolds their future."
+    },
+    {
+      "season": "2",
+      "premium": false,
+      "image": "https://image-resizer-cloud-api.akamaized.net/image/66E76E8C-5999-43BA-B9EF-27159616D8F5/0-16x9.jpg?width=323",
+      "title": "Coverage",
+      "episodeNo": "1",
+      "duration": "24",
+      "description": "MLA Karunakaran Reddy and his party members are involved in election campaigning, while journalist Shiva is engaged in taking settlements. Ayyappa, who has a land issue, visits Shiva to file a complaint with the press club. Amidst all this, will shiva help him in seeking justice?"
+    },
+    {
+      "season": "2",
+      "premium": false,
+      "image": "https://image-resizer-cloud-api.akamaized.net/image/66E76E8C-5999-43BA-B9EF-27159616D8F5/0-16x9.jpg?width=323",
+      "title": "Coverage",
+      "episodeNo": "2",
+      "duration": "24",
+      "description": "MLA Karunakaran Reddy and his party members are involved in election campaigning, while journalist Shiva is engaged in taking settlements. Ayyappa, who has a land issue, visits Shiva to file a complaint with the press club. Amidst all this, will shiva help him in seeking justice?"
+    },
+    {
+      "season": "2",
+      "premium": false,
+      "image": "https://image-resizer-cloud-api.akamaized.net/image/66E76E8C-5999-43BA-B9EF-27159616D8F5/0-16x9.jpg?width=323",
+      "title": "Coverage",
+      "episodeNo": "3",
+      "duration": "24",
+      "description": "MLA Karunakaran Reddy and his party members are involved in election campaigning, while journalist Shiva is engaged in taking settlements. Ayyappa, who has a land issue, visits Shiva to file a complaint with the press club. Amidst all this, will shiva help him in seeking justice?"
+    },
+    {
+      "season": "2",
+      "premium": false,
+      "image": "https://image-resizer-cloud-api.akamaized.net/image/66E76E8C-5999-43BA-B9EF-27159616D8F5/0-16x9.jpg?width=323",
+      "title": "Coverage",
+      "episodeNo": "4",
+      "duration": "24",
+      "description": "MLA Karunakaran Reddy and his party members are involved in election campaigning, while journalist Shiva is engaged in taking settlements. Ayyappa, who has a land issue, visits Shiva to file a complaint with the press club. Amidst all this, will shiva help him in seeking justice?"
+    },
+    {
+      "season": "2",
+      "premium": false,
+      "image": "https://image-resizer-cloud-api.akamaized.net/image/66E76E8C-5999-43BA-B9EF-27159616D8F5/0-16x9.jpg?width=323",
+      "title": "Coverage",
+      "episodeNo": "5",
+      "duration": "24",
+      "description": "MLA Karunakaran Reddy and his party members are involved in election campaigning, while journalist Shiva is engaged in taking settlements. Ayyappa, who has a land issue, visits Shiva to file a complaint with the press club. Amidst all this, will shiva help him in seeking justice?"
+    },
+    {
+      "season": "2",
+      "premium": false,
+      "image": "https://image-resizer-cloud-api.akamaized.net/image/66E76E8C-5999-43BA-B9EF-27159616D8F5/0-16x9.jpg?width=323",
+      "title": "Coverage",
+      "episodeNo": "6",
+      "duration": "24",
+      "description": "MLA Karunakaran Reddy and his party members are involved in election campaigning, while journalist Shiva is engaged in taking settlements. Ayyappa, who has a land issue, visits Shiva to file a complaint with the press club. Amidst all this, will shiva help him in seeking justice?"
+    },
+    {
+      "season": "2",
+      "premium": false,
+      "image": "https://image-resizer-cloud-api.akamaized.net/image/66E76E8C-5999-43BA-B9EF-27159616D8F5/0-16x9.jpg?width=323",
+      "title": "Coverage",
+      "episodeNo": "7",
+      "duration": "24",
+      "description": "MLA Karunakaran Reddy and his party members are involved in election campaigning, while journalist Shiva is engaged in taking settlements. Ayyappa, who has a land issue, visits Shiva to file a complaint with the press club. Amidst all this, will shiva help him in seeking justice?"
+    },
+    {
+      "season": "2",
+      "premium": false,
+      "image": "https://image-resizer-cloud-api.akamaized.net/image/66E76E8C-5999-43BA-B9EF-27159616D8F5/0-16x9.jpg?width=323",
+      "title": "Coverage",
+      "episodeNo": "8",
+      "duration": "24",
+      "description": "MLA Karunakaran Reddy and his party members are involved in election campaigning, while journalist Shiva is engaged in taking settlements. Ayyappa, who has a land issue, visits Shiva to file a complaint with the press club. Amidst all this, will shiva help him in seeking justice?"
+    },
+    {
+      "season": "2",
+      "premium": false,
+      "image": "https://image-resizer-cloud-api.akamaized.net/image/66E76E8C-5999-43BA-B9EF-27159616D8F5/0-16x9.jpg?width=323",
+      "title": "Coverage",
+      "episodeNo": "9",
+      "duration": "24",
+      "description": "MLA Karunakaran Reddy and his party members are involved in election campaigning, while journalist Shiva is engaged in taking settlements. Ayyappa, who has a land issue, visits Shiva to file a complaint with the press club. Amidst all this, will shiva help him in seeking justice?"
+    },
+    {
+      "season": "2",
+      "premium": false,
+      "image": "https://image-resizer-cloud-api.akamaized.net/image/66E76E8C-5999-43BA-B9EF-27159616D8F5/0-16x9.jpg?width=323",
+      "title": "Coverage",
+      "episodeNo": "10",
+      "duration": "24",
+      "description": "MLA Karunakaran Reddy and his party members are involved in election campaigning, while journalist Shiva is engaged in taking settlements. Ayyappa, who has a land issue, visits Shiva to file a complaint with the press club. Amidst all this, will shiva help him in seeking justice?"
+    }
+  ]
+}

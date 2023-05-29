@@ -39,6 +39,26 @@ width: 100%;
     margin-bottom: 8px;
     font-size: 12px
 }
+.divider{
+    opacity: 0.1;
+   margin: 20px -50px;
+}
+.copyright{
+    margin:0px 4vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.left{
+    font-size: 14px;
+    color: white;
+}
+.right{
+   display: flex;
+    vertical-align: top;
+    font-size:14 ;
+    color:rgb(150, 150, 157)
+}
 
 @media screen and (max-width:1120px) {
     .socialmedia{
@@ -53,6 +73,9 @@ width: 100%;
 }
 
 @media screen and (max-width:900px) {
+    .divider{
+        display: none;
+    }
     .must-watch{
         vertical-align: top;
         display: inline-block;
@@ -68,5 +91,10 @@ width: 100%;
         display: block;
         color: white;
         font-size: 14px
+    }
+    .copyright{
+        margin-top: 30px;
+        flex-direction: column-reverse;
+        align-items: center;
     }
 }

@@ -10,7 +10,6 @@
         <app-cast *ngSwitchCase="'cast'"></app-cast>
         <app-details *ngSwitchCase="'details'"></app-details>
     </div>
-    <app-scrollable-list class="scrollable-list" [title]="'Similar to this'" [container-list]="cardList"></app-scrollable-list>
-    <app-scrollable-list class="scrollable-list" [title]="'Popular Shows'" [container-list]="popularList"></app-scrollable-list>
+    <app-scrollable-list *ngFor="let ad of adList" class="scrollable-list" [title]="ad.title" [container-list]="ad.cardList"></app-scrollable-list>
 <div>&nbsp;</div>
 </div>

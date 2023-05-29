@@ -1,18 +1,20 @@
 .title-container{
     display: flex;
-    background-image: url(https://image-resizer-cloud-api.akamaized.net/image/A98FB9D1-EE56-455D-A460-600BD454AA3E/0-3x1.jpg?width=2880);
+    /* background-image: url(https://image-resizer-cloud-api.akamaized.net/image/A98FB9D1-EE56-455D-A460-600BD454AA3E/0-3x1.jpg?width=2880); */
     background-size: cover;
     background-repeat: no-repeat;
-    height:calc(0px + 17vw * 2 )
+    height:calc(0px + 17vw * 2 );
+    min-height: max-content;
 }
 .title-gradient{
     flex: 1;
+    min-height: fit-content;
     background-image: linear-gradient(75deg,#000 3.89%,transparent 94.59%);
 }
 
 .title-container-content{
     height: fit-content;
-    margin-top: 6vw;
+    margin-top: 6.4vw;
     margin-left: 5vw;
     display: flex;
     flex-direction: column;
@@ -35,7 +37,7 @@
     align-items: center;
     color: white;
     font-size: 0.7vw;
-    padding: 5px 1vw;
+    padding: 0.3vw 0.7vw;
     border: 2px solid rgb(53, 57, 63);
     background-color: rgb(26, 29, 30);
 }
@@ -43,7 +45,7 @@
     margin-right: 8px;
 }
 #title-text{
-    margin:10px 0px;
+    margin:2vw 0px;
 /* font-size: calc(3vw * 0.05 + 29px); */
 font-size: 2.5vw;
 color: white;
@@ -60,9 +62,10 @@ color: white;
     display: inline;
 }
 .description{
+    margin-top: 10px;
     padding: 0px;
     /* font-size:calc( calc( 1vw * 0.3 ) + 10.4px); */
-    font-size: 1.1vw ;
+    font-size: 1vw ;
     line-height: 1.5vw;
     color: white;
 }
@@ -74,17 +77,34 @@ color: white;
     margin: 0px 10px;
 }
 .share-button{
-    margin-left: 20px;
-    margin-top: 2vw;
-    height: 10px;
-    width: 10px;
+    margin-left: 10px;
+    margin-top: 1.5vw;
+    height: 6px;
+    width: 6px;
 color: white;
-font-size: 12px;
+font-size: 10px;
+}
+@media screen and (max-width:1190px) {
+    .share-button{
+        margin-top: 5px;
+    }
+    .description{
+        margin-top: 0px;
+    }
+    #title-text{
+        margin-top: 10px;
+    }
 }
 @media screen and (max-width:900px){
     .title-container-content{
         margin-top: 30px;
     }
+}
+@media screen and (max-width:825px) {
+    .title-container-content{
+        margin-top: 2vw;
+    }
+    
 }
 @media screen and (max-width:768px) {
     .title-container{

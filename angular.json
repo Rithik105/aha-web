@@ -84,6 +84,31 @@
             ],
             "tsConfig": "tsconfig.spec.json",
             "assets": [
+              {
+
+                "glob": "ads.json",
+                
+                "input": "../",
+                
+                 "output": "./assets"
+                
+                 },{
+
+                  "glob": "web.details.data.json",
+                  
+                  "input": "../",
+                  
+                   "output": "./assets"
+                  
+                   },{
+
+                    "glob": "web.preview.data.json",
+                    
+                    "input": "../",
+                    
+                     "output": "./assets"
+                    
+                     },
               "src/favicon.ico",
               "src/assets"
             ],
