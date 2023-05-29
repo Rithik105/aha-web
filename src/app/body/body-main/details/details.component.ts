@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { JsonService } from 'src/app/services/json.service';
 
 @Component({
   selector: 'app-details',
@@ -8,12 +9,15 @@ import { Component } from '@angular/core';
 export class DetailsComponent {
 detailsList=[
   {
-    title:'Director',
-    value:'Sri Prawin Kumar'
-  },
-  {
-    title:'Studio',
-    value:'Mirage Media'
+    title:'',
+    value:''
   }
 ]
+
+constructor(private json:JsonService){}
+ngOnInit(): void {
+  this.json.getWebDetails().subscribe((data)=>{
+this.detailsList=data.detailsList
+  })
+}
 }

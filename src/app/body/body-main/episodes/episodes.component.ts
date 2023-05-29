@@ -17,6 +17,7 @@ episodeList = [
   {season:'',premium:false,image:'',title:'',episodeNo:'',duration:'',description:""},
 ]
 ngOnInit(): void {
+  this.seasonList=[]
   this.jsonService.getWebDetails().subscribe((data:WebDetailsInterface)=>{
         this.numberOfSeasons=data.numberOfSeasons;
         this.episodeList=data.episodeList;

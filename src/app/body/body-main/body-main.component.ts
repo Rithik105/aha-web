@@ -14,13 +14,9 @@ adList:AdsInterface[]= []
 constructor(private json:JsonService){}
  ngOnInit(): void {
    this.json.getAds().subscribe((data:AdsInterface[])=>{
-        this.adList=data
-         
+        this.adList=data 
    })
  }
-
-
-
 tabPressed(tab:string){
   this.selectedTab=tab;
 }
