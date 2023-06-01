@@ -5,8 +5,6 @@
     background-repeat: no-repeat;
     height:calc(0px + 17vw * 2 );
     min-height: max-content;
-    -ms-overflow-style: none;
-     scrollbar-width: none;
 }
 .title-gradient{
     flex: 1;
@@ -116,15 +114,11 @@ font-size: 10px;
     }
     #title-text{
         margin:10px 0px;
-    /* font-size: calc(3vw * 0.05 + 29px); */
     font-size: 3.5vw;
     color: white;
     }
     .details-container{
-        color: rgb(122, 122, 122);
         width: 370px;
-        word-wrap: break-word;
-        height: fit-content;
         font-size: 2.1vw;
         margin-bottom: 10px;
     
